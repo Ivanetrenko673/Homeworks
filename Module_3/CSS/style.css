@@ -1,0 +1,16 @@
+@import "./reset.css";
+
+@import "./header.css";
+
+@import "./main.css";
+
+@import "./footer.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/*
+font-family: 'Ubuntu', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+
+/*font-family: 'Playfair Display', serif;*/
