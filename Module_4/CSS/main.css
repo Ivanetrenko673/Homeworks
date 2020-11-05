@@ -1,0 +1,146 @@
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+.icons{
+    margin: 128px auto 92px auto;
+    justify-content: center;
+    width: 1114px;
+}
+.icons_small_title{
+    font-size: 24px;
+    font-family: "Kaushan Script", cursive;
+    color: #333333;
+    text-align: center;
+    margin: 0 441px 22px 441px;
+    
+}
+.icons_title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #333333;
+    margin: 22px auto 50px auto;
+}
+.icons_title::after {
+    content: '';
+    height: 4px;
+    width: 61px;
+    background-color: #F38181 ;
+    display: block;
+    margin:  41px auto 50px auto;
+}
+.card {
+    width: 300px;
+    padding: 65px auto 100px auto;
+    display: flex;
+  
+}
+.text_wrapper {
+    margin-right: 71px;
+    font-style: 14px;
+    color: #4D4D4D;
+    font-family: 'Montserrat', sans-serif;
+}
+.card_title {
+width: 114px;
+height: 10px;
+padding-bottom: 20px;
+font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+}
+.card_text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 270px;
+    color: #999999;
+    font-weight: 400;
+    height: 30px;
+}
+.icons_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+    height: 300px;
+    width: 1100px;
+   
+} 
+.img_card {
+    width: 31px;
+    height: 32px;
+    justify-content: flex-start;
+    margin-right: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.team {
+width: 1200px;
+margin-right: 360px;
+text-align: center;
+justify-content: center;
+}
+.team_wrapper {
+text-align: center;
+
+}
+.team_text {
+text-align: center;
+width: 941px;
+margin:  46px 130px 91px 130px;
+justify-content: center;
+}
+.card_wrapper {
+justify-content: space-between;
+display: flex;
+margin-top: 90px;
+justify-content: center;
+}
+.team_card {
+width: 381px;
+height: 534px;
+margin-bottom: 81px;
+}
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    width: 941px;
+    font-weight: 400;
+    height: 39px;
+}
+.title_wrapper {
+ 
+    text-align: center; 
+}
+.img {
+    width: 381px;
+    height: 471px;
+    margin-bottom: 31px;  
+}
+.img_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.img_small_text {
+    font-family: 'Roboto', sans-serif italic;
+    font-style: italic;
+    color: #999999;
+}
+.card_item {
+    margin: 0 27px 0 27px;
+}
