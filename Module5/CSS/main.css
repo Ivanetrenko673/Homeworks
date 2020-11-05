@@ -1,0 +1,246 @@
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 110px;
+}
+.icons{
+    margin: 128px auto 92px auto;
+    justify-content: center;
+    width: 1200px;
+}
+.icons_small_title{
+    font-size: 24px;
+    font-family: "Kaushan Script", cursive;
+    color: #333333;
+    text-align: center;
+    margin: 0 441px 22px 441px;
+    
+}
+.icons_title{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #333333;
+    margin: 22px auto 50px auto;
+}
+.icons_title::after {
+    content: '';
+    height: 4px;
+    width: 61px;
+    background-color: #F38181 ;
+    display: block;
+    margin:  41px auto 50px auto;
+}
+
+
+.text_wrapper {
+  margin-left: 30px;
+    font-size:  14px;
+    color: #4D4D4D;
+    font-family: 'Montserrat', sans-serif;
+}
+.card_title {
+width: 114px;
+height: 10px;
+padding-bottom: 20px;
+font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+}
+.card_text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width: 269px;
+    color: #999999;
+    font-weight: 400;
+    height: 30px;
+}
+.icons_wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+    height: 300px;
+    width: 1100px;
+   margin: 0 auto;
+} 
+/*.img_card {
+    width: 31px;
+    height: 32px;
+    justify-content: flex-start;
+    margin-right: 28px;
+}*/
+
+._card::before {
+content: '';
+display: block;
+background-image: url('../icons/photography.png') ;
+width: 32px;
+height: 32px;
+}
+._card {
+    width: 330px;
+    display: flex;
+
+}
+.icons_wrapper:nth-child(3n+3) {
+    margin-right: 0px;
+}
+
+
+
+
+
+
+
+.team {
+width: 1200px;
+margin-right: 360px;
+text-align: center;
+justify-content: center;
+}
+.team_wrapper {
+text-align: center;
+
+}
+.team_text {
+text-align: center;
+width: 941px;
+margin:  46px 130px 91px 130px;
+justify-content: center;
+}
+.cards_wrapper {
+justify-content: space-between;
+display: flex;
+margin-top: 90px;
+justify-content: center;
+}
+.card {
+width: 381px;
+height: 534px;
+margin-bottom: 81px;
+margin-right:  27px;
+}
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #999999;
+    width: 941px;
+    font-weight: 400;
+    height: 39px;
+}
+.title_wrapper {
+ 
+    text-align: center; 
+}
+.team_photo {
+    width: 381px;
+    height: 471px;
+    margin-bottom: 31px;  
+}
+.img_text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 15px;
+}
+.img_small_text {
+    font-family: 'Roboto', sans-serif italic;
+    font-style: italic;
+    color: #999999;
+}
+.card_item {
+    margin: 0 27px 0 27px;
+}
+
+
+
+
+.team {
+  margin: 20px auto; 
+  text-align: center; 
+ 
+}
+
+.cards_wrapper {
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.card {
+width: 380px;
+height: 550px;
+display: flex;
+}
+.card_container {
+position: relative;
+height: 470px;
+}
+
+
+.team_photo {
+width: 380px;
+height: 470px;
+}
+
+.card_container:hover > .team_photo {
+    transform: translate( -10px, -10px ); 
+    transition: 200ms linear;
+}
+
+.team_card_hidden {
+    width: 380px;
+    height: 470px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.card_container:hover > .team_card_hidden{
+    transform: translate( -10px, -10px );
+    transition: 200ms linear;
+    background: linear-gradient( rgba( 243, 129, 129, 0.8) , rgba( 252, 227, 138, 0.8));
+    -webkit-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    -moz-box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+    box-shadow: 10px 10px 0px 0px rgba(149,225,211,1);
+}
+
+
+.social {
+font-size: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 380px;
+display: none;
+}
+
+.card_container:hover .social {
+    display: block;
+}
+
+.social_link {
+width: 56px;
+height: 56px;
+background-color: #FCE38A;
+display: inline-block;
+position: relative;
+margin-right: 1px;
+}
+
+.social_link:last-child {
+    margin-right: 0;
+}
+
+.social_link:hover {
+    background-color: #95E1D3;
+}
+
+.social_icons {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
