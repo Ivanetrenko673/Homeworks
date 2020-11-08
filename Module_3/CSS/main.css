@@ -38,14 +38,15 @@ font-weight: 400;
     height: 283px;
     margin-bottom: 32px;
 }
+.img{
+    width: 423px;
+    height: auto;
+    transform: translateY(-42%); 
+}
+
 .img_wrapper {
     width: 423px;
     height: 283px;
     overflow: hidden;
     margin-bottom: 32px;
-}
-.img {
-    width: 423px;
-    height: auto;
-    transform: translateY(-42%);
 }
