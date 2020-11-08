@@ -1,0 +1,77 @@
+.black {
+    background-color: #222222;
+    background-image: url(../icons/Map\ Image@1X.png) ;
+    background-repeat: no-repeat;
+    }
+    .section2 {
+    
+    }
+    
+    .wrapper2 {
+        padding-top: 130px;
+    }
+    .title_wrapper {
+    
+    }
+    
+    .title_text2 {
+        color: #ffffff;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 53px;
+    }
+
+    .form {
+      width: 940px;
+     margin: 0 auto ;
+     padding-bottom: 115px;
+    }
+    .form_select {
+        align-items: flex-start;
+        justify-content: space-between;
+        display: flex;
+    }
+    .input_wrapper{
+        margin-right: 30px;
+    }
+
+    .input_name {
+    display: block;
+   
+      width: 455px;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      color: #000000;
+      padding: 20px 20px;
+      border: none;
+      background-color: #ffffff;
+      border-radius: 4px;
+      margin-bottom: 30px;
+    }
+    .input_name::placeholder {
+        color: #bbbbbb;
+        text-transform: uppercase;
+    }
+    .input_name:focus {
+        border: none;
+        outline: none;
+    } 
+
+    .message {
+      width: 100%;
+     height: 230px;
+    }
+
+    .imput_submit {
+     margin: 30px auto 0;
+     width: 240px;
+     background-color:#fed136 ;
+     padding: 26px 47px ;
+     color: #ffffff;
+     font-size: 16px;
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+     text-align: center;
+    }
