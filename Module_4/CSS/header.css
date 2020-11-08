@@ -27,13 +27,7 @@ margin-top: 40px;
 display: flex;
 justify-content: space-between;
 }
-.nav_list_item {
-padding-right: 57px;
 
-}
-.nav_list_item:nth-child(5n) {
-padding-right: 0;
-}
 .nav_list_link {
 text-transform: uppercase;
 color: #95E1D3;
