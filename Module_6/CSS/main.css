@@ -1,27 +1,31 @@
 .main {
-width: 933px;
-margin: 0 auto ;
+width: 1400px;
+margin: 0 auto;
 justify-content: center;
 }
 .section_1 {
 width: 100%;
+background-color: #fff;
+margin-bottom: 150px;
+justify-content: center;
+text-align: center;
 }
-.title_wrapper {
-    text-align: center;
-    margin-bottom: 80px;
-}
-.title {
-margin-bottom: 19px;
-}
+
+
 .title_text {
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 19px;
     font-weight: 900;
     text-transform: uppercase;
     font-size: 53px;
     color: #222222;
+    text-align: center;
+  
 }
 
 .small_title_text {
+    text-align: center;
+    margin-bottom: 80px;
     font-family: 'Roboto', sans-serif;
     font-style: italic;
     font-size: 21px;
@@ -32,16 +36,14 @@ margin-bottom: 19px;
 
 
 .cards_wrapper{
-display: flex;
-width: 933px;
+    display: flex;
+   margin: 0 auto;
+    justify-content: space-between  ;
+    width: 935px;
 }
 .card {
     width: 275px;
-    margin-right:56px;
-    padding-bottom: 115px;
-}
-.card:nth-child(3n+3){
-    margin-right: 0px; 
+   
 }
 
 .icon_wrapper {
@@ -55,12 +57,11 @@ width: 933px;
     align-items: center;
 }
 .icon {
-    
+    align-items: center;
     width: 40px;
     height: 40px;
 }
 .wrapper {
-    width: 280px;
     margin-top: 28px;
     text-align: center;
 }

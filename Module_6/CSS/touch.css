@@ -1,18 +1,18 @@
-.black {
-    background-color: #222222;
-    background-image: url(../icons/Map\ Image@1X.png) ;
-    background-repeat: no-repeat;
-    }
+
     .section2 {
-    
+        background-color: #222222;
+        align-items: flex-end;
+        width: 1400px;
+        justify-content: flex-end;
+        position: absolute;
+       
     }
+    
     
     .wrapper2 {
         padding-top: 130px;
     }
-    .title_wrapper {
     
-    }
     
     .title_text2 {
         color: #ffffff;
@@ -20,9 +20,18 @@
         font-weight: 900;
         text-transform: uppercase;
         font-size: 53px;
+        text-align: center;
+        margin-bottom: 19px;
+    }
+    .map {
+        position: absolute;
+        right: 0;
+        top: 180px;
     }
 
     .form {
+        justify-content: center;
+        text-align: center;
       width: 940px;
      margin: 0 auto ;
      padding-bottom: 115px;
@@ -65,6 +74,7 @@
     }
 
     .imput_submit {
+        text-transform: uppercase;
      margin: 30px auto 0;
      width: 240px;
      background-color:#fed136 ;
