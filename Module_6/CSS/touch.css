@@ -5,12 +5,15 @@
         width: 1400px;
         justify-content: flex-end;
         position: absolute;
-       
+        background-image: url(../icons/map.png);
+        background-repeat: no-repeat;
+        background-position:  right center;
     }
     
     
     .wrapper2 {
         padding-top: 130px;
+       
     }
     
     
@@ -23,11 +26,7 @@
         text-align: center;
         margin-bottom: 19px;
     }
-    .map {
-        position: absolute;
-        right: 0;
-        top: 180px;
-    }
+    
 
     .form {
         justify-content: center;
