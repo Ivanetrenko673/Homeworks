@@ -24,13 +24,16 @@ text-align: center;
 .nav {
    width: 480px; 
    padding: 17px 0px 7px 0; 
-   display: flex;
+ 
 }
 
-
+.link_wrapper{
+    display: flex;
+    justify-content: space-around;
+}
 
 .nav_list_item {
-  padding-right: 40px; 
+ 
  
 
 }

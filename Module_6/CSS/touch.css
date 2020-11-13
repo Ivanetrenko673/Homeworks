@@ -2,7 +2,7 @@
     .section2 {
         background-color: #222222;
         align-items: flex-end;
-        width: 1400px;
+        width: 100%;
         justify-content: flex-end;
         position: absolute;
         background-image: url(../icons/map.png);
