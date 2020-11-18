@@ -1,15 +1,16 @@
-
+@media (min-width: 320px)  {
 
     
 
       
 .header_wrapper {
-    
-background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url(../imeges/9876.jpeg);
+    background-color: rgba(0, 0, 0, 0.7);
+background-image: url(../imeges/Vector\ Smart\ Object@1X.jpeg);
 background-repeat: no-repeat;
 margin: 0 auto 68px;
-background-position: center;
-background-size: cover;
+align-items: center;
+justify-content: center;
+height: 542px;
 }
 
 
@@ -114,7 +115,7 @@ border-radius: 50px;
 margin-bottom:  70px;
 width: 280px;
 }          
-
+}
 
 
 
@@ -124,16 +125,13 @@ width: 280px;
 
       
     .header_wrapper {
-       
-        background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../imeges/1234.jpg); 
-   
-   
-
+    background-image: url(../imeges/peopls.jpeg);
+   height: 700px;
+ 
     }
     
     
     .header {
-      
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
@@ -170,57 +168,3 @@ width: 280px;
    
     
     }
-
-
-    @media (min-width: 1440px)  {
-
-   
-
-      
-        .header_wrapper {
-        
-        background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),  url(../imeges/peopls.jpeg);
-      
-       background-repeat: no-repeat;
-       margin: 0 auto 68px;
-      
-        }
-        
-        
-        .header {
-        display: flex;
-        justify-content: space-around;
-        flex-direction: row-reverse;
-        }
-        .nav {
-            
-           
-        }
-        
-        
-        .login {
-           
-        
-        }
-        
-        
-        .welkome{
-          
-            
-        }
-        .title{
-            font-size: 50px;
-        }
-        .title_wrapper{
-            align-items: flex-start;
-        }
-        .small_title {
-          font-size: 20px;  
-           margin: 0 0 60px;
-        }
-       .long_title{
-           font-size: 24px;
-       }
-       
-        
-        }

@@ -325,7 +325,7 @@ margin: 0 auto 28px;
     display: flex;
     justify-content: center;
     align-items: center;
- width: 80%;
+   
     }
     .card_wrapper{
         flex-wrap: wrap;
@@ -648,13 +648,14 @@ margin: 0 auto 28px;
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
-        width: 80%;
-    }
+      
+        }
+
       .card_wrapper{
           margin: 0 auto;
 display: flex;
-justify-content: space-around;
-
+justify-content: center;
+width: 914px;
       }
 
         
