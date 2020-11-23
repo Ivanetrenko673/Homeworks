@@ -1,11 +1,11 @@
-@media screen and (max-width: 320px)  {
+
 .section2 {
 text-align: center;
 
 }
 
 .card_wrapper{
-     display: none;     
+          
 }
 .container {
 display: flex;
@@ -311,26 +311,27 @@ margin: 0 auto 28px;
 
 
 
-}
 
 
 
 
-@media screen and (max-width: 768px)  {
+
+@media screen and (min-width: 768px)  {
     .section2 {
     margin: 0 auto;
     text-align: center;
     flex-wrap: wrap;
-    width: 100%;
-    display: flex;
+  
+     display: flex;
     justify-content: center;
     align-items: center;
- width: 80%;
+    width: 80%;
     }
     .card_wrapper{
         flex-wrap: wrap;
         width: 70%;
-        align-items: center;    
+        align-items: center; 
+        display: flex;   
     }
 
 
@@ -642,13 +643,14 @@ margin: 0 auto 28px;
       
     }
     
-@media screen and (max-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .section2 {
       margin: 0 auto;
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
         width: 80%;
+        display: block;
     }
       .card_wrapper{
           margin: 0 auto;
